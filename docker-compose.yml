@@ -11,7 +11,7 @@ services:
     restart: always
 
   cs_fe:
-    build: fe/dsyer/last/dsyer
+    build: .
     container_name: frontendcompose
     volumes:
       - /etc/localtime:/etc/localtime:ro
