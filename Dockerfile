@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM localhost:5000/jdkimage
 
 COPY target/angular-maven-0.0.1-SNAPSHOT.jar /opt/angular-maven-0.0.1-SNAPSHOT.jar
 
